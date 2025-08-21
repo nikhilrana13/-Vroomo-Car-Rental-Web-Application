@@ -5,7 +5,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger
-} from "@/components/ui/dialog"
+} from "../ui/dialog.jsx"
 import { useForm } from 'react-hook-form'
 import axios from 'axios'
 import { toast } from 'sonner'

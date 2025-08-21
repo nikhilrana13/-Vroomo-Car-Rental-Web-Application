@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Button } from "@/components/ui/button"
 import {
   Dialog,
   DialogClose,
@@ -9,7 +8,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
+} from "../ui/dialog.jsx"
 import { NavLink, useNavigate } from 'react-router-dom'
 import SignIn from './SignIn'
 import { useForm } from 'react-hook-form'
