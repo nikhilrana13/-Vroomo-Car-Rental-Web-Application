@@ -3,7 +3,7 @@ import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import SignIn from './SignIn';
 import { useDispatch, useSelector } from 'react-redux';
-import ProfileDropdownMenu from './ProfileDropdownmenu';
+import ProfileDropdownMenu from '../pagecomponents/ProfileDropdownMenu';
 import unknownuser from "../../assets/unknownuser.webp"
 import axios from 'axios';
 import { SetUser } from '@/Redux/AuthSlice';
