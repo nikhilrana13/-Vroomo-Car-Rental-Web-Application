@@ -7,10 +7,10 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@Components/ui/table"
+} from "../ui/table.jsx"
 import axios from "axios";
 import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
-import { Button } from '../ui/button';
+import { Button } from '../ui/button.jsx';
 import { NavLink, Outlet } from 'react-router-dom';
 import { toast } from 'sonner';
 
