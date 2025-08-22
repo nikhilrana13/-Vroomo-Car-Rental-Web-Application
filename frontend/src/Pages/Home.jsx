@@ -61,7 +61,7 @@ const Home = () => {
           ):Cars?.length > 0 ? (
              <div className='flex justify-center items-center gap-7 flex-wrap'>
               {
-                AvailableCars?.slice(0,5).map((Car)=>{
+                AvailableCars?.slice(0,3).map((Car)=>{
                      return(
                       <CarDetailCard key={Car._id} Car={Car} /> 
                    )
